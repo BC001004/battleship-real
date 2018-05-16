@@ -45,17 +45,19 @@
             font-size: 1em;
         }
         .hit {
-            background: url("ship.png") no-repeat center center; 
+            background: url('ship.png') no-repeat center center; 
         }
         .miss {
-            background: url("miss.png") no-repeat center center; 
+            background: url('miss.png') no-repeat center center; 
         }
     </style>
 </head>
 
 <body>
     <div id="board">
-        <div id="messageArea"></div>
+        <div id="messageArea">
+            
+        </div>
         <table>
             <tr><!--  "td"-表格中单元格  "tr"-表格中一行 -->
                 <td id="00"></td>
@@ -68,9 +70,9 @@
             </tr>
             <tr>
                 <td id="10"></td>
-                <td id="11" class="hit"></td>
+                <td id="11"></td>
                 <td id="12"></td>
-                <td id="13" class="hit"></td>
+                <td id="13"></td>
                 <td id="14"></td>
                 <td id="15"></td>
                 <td id="16"></td>
