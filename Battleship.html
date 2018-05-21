@@ -124,7 +124,7 @@
             </tr>
         </table>
         <form>
-            <input type="text" id="guessInput" placeholder="A0">
+            <input type="text" id="guessInput" placeholder="A0" onblur="this.focus();"onkeyup="this.value = this.value.toUpperCase();">
             <input type="button" id="fireButton" value="Fire!">
         </form>
     </div>
